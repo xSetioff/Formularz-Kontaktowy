@@ -1,6 +1,8 @@
 # Formularz Kontaktowy (Wlasny projekty Pollub)
+***
 https://xsetioff.github.io/Formularz-Kontaktowy-Wlasny-projekty-Pollub-/
- Formularz kontaktowy – własny projekt!
+***
+Formularz kontaktowy – własny projekt!
 Utworzyć formularz kontaktowy firmy handlowej (branżę handlową należy wybrać samodzielnie – np.
 elektronika, motoryzacja, przemysł spożywczy, usługi remontowe), który będzie zawierał następujące
 pola: imię i nazwisko, wiek, adres e-mail, nr. telefonu, pole z wyborem preferowanego sposobu
