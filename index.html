@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Kontaktowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Formularz Kontaktowy</h2>
+    <form action="nemastrony" method="post">
+        <label for="name">Imię i Nazwisko:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Wiek:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="email">Adres E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Nr. Telefonu:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="contactMethod">Preferowany Sposób Kontaktu:</label>
+        <select id="contactMethod" name="contactMethod" required>
+            <option value="phone">Telefon</option>
+            <option value="email">E-mail</option>
+        </select>
+
+        <label for="contact">Cel Kontaktu:</label>
+        <select id="contact" name="contact" required>
+            <option value="repair">Naprawa uszkodzonych maszyn</option>
+            <option value="warranty">Serwis gwarancyjny</option>
+            <option value="maintenance">Obsługa techniczna</option>
+            <option value="consultation">Konsultacje i personalizacja</option>
+            <option value="upgrade">Aktualizacja lub upgrade</option>
+            <option value="replacement">Utylizacja lub wymiana urządzenia</option>
+            <option value="software">Rozwiązywanie problemów ze sprzętem lub oprogramowaniem</option>
+            <option value="datarecovery">Odzyskiwanie danych</option>
+            <option value="other">Inne</option>
+        </select>
+
+        <label for="message">Wiadomość/Komentarz:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+         <div class="buttons">
+            <button type="submit">Wyślij</button>
+            <button type="reset">Zresetuj</button>
+         </div>
+        
+    </form>
+
+    <div class="partners">
+        <h3>Partnerzy:</h3>
+        <a href="https://github.com/xSetioff">MyGithub</a>
+        <a href="https://weii.pollub.pl/">Pollub2023</a>
+    </div>
+</div>
+
+</body>
+</html>
